@@ -1,11 +1,21 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  eslint : {  
-    ignoreDuringBuilds: true, // Ignore ESLint errors during build
+  /* config options here */
+  // images: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "ik.imagekit.io",
+  //       port: "",
+  //     },
+  //   ],
+  // },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true, // Ignore TypeScript errors during build
+    ignoreBuildErrors: true,
   },
 };
 
